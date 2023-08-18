@@ -1,0 +1,7 @@
+# ninja log v5
+10	1151	7139574824685789	CMakeFiles/Leetcode_2023.dir/main.cpp.obj	a84425611fd92ff2
+1152	1387	7139574826998531	Leetcode_2023.exe	bc7362952d60b20
+14	1035	7139575705949104	CMakeFiles/Leetcode_2023.dir/main/main.cpp.obj	22874318beca4e
+1	1041	7139575705958868	CMakeFiles/Leetcode_2023.dir/test.cpp.obj	c8505cec867b6ea3
+8	127	7139575890141847	CMakeFiles/Leetcode_2023.dir/main/main.cpp.obj	22874318beca4e
+128	356	7139575892332305	Leetcode_2023.exe	efff19ec4da5a4a4
