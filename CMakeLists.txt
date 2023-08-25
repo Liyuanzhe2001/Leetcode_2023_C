@@ -3,4 +3,4 @@ project(Leetcode_2023)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Leetcode_2023 main/main.cpp test.cpp main/数据结构教程/线性表/线性表的视线/lc_设计链表.cpp main/数据结构教程/线性表/线性表的视线/lc_链表随机节点.cpp main/周赛359/main_01.cpp main/周赛359/main_02.cpp main/周赛359/main_03.cpp main/main_2337.cpp main/main_849.cpp main/main_1269.cpp main/main_1448.cpp)
+add_executable(Leetcode_2023 main/main.cpp test.cpp main/数据结构教程/线性表/线性表的实现/lc_设计链表.cpp main/数据结构教程/线性表/线性表的实现/lc_链表随机节点.cpp main/周赛359/main_01.cpp main/周赛359/main_02.cpp main/周赛359/main_03.cpp main/main_2337.cpp main/main_849.cpp main/main_1269.cpp main/main_1448.cpp main/数据结构教程/线性表/单链表及其应用/lc_移除链表元素.cpp main/数据结构教程/线性表/单链表及其应用/lc_删除链表中的节点.cpp main/数据结构教程/线性表/单链表及其应用/lc_翻转链表.cpp "main/数据结构教程/线性表/单链表及其应用/lc_反转链表 II.cpp")
