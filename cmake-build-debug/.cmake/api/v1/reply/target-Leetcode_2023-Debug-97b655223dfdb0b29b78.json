@@ -83,7 +83,8 @@
 				28,
 				29,
 				30,
-				31
+				31,
+				32
 			]
 		}
 	],
@@ -151,7 +152,8 @@
 				28,
 				29,
 				30,
-				31
+				31,
+				32
 			]
 		}
 	],
@@ -347,6 +349,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "main/\u6570\u636e\u7ed3\u6784\u6559\u7a0b/\u6808\u4e0e\u961f\u5217/lc_\u8bbe\u8ba1\u4e00\u4e2a\u652f\u6301\u589e\u91cf\u64cd\u4f5c\u7684\u6808.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main/\u6570\u636e\u7ed3\u6784\u6559\u7a0b/\u6808\u4e0e\u961f\u5217/lc_\u6700\u5c0f\u6808.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
