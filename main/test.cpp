@@ -4,11 +4,23 @@
 
 #include "iostream"
 #include "string"
+
 using namespace std;
 
-int main(){
-    string s = "a";
-    string pre = "ab";
-    cout << s.find(s) << endl;
+bool composition(string s1, string s2);
+
+int main() {
+    cout << composition("ababab", "ab") << endl;
     return 0;
+}
+
+bool composition(string s1, string s2) {
+    int index = 0;
+    while (index < s1.size()) {
+        if (s1.substr(index, s2.size()) != s2) {
+            return false;
+        }
+        index += s2.size();
+    }
+    return true;
 }
