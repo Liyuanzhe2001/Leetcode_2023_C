@@ -100,7 +100,8 @@
 				45,
 				46,
 				47,
-				48
+				48,
+				49
 			]
 		}
 	],
@@ -185,7 +186,8 @@
 				45,
 				46,
 				47,
-				48
+				48,
+				49
 			]
 		}
 	],
@@ -483,6 +485,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "main/\u6570\u636e\u7ed3\u6784\u6559\u7a0b/\u9012\u5f52/lc_Pow(x, n).cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main/main_1222.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
