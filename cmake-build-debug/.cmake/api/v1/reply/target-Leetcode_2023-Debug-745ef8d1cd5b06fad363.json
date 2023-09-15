@@ -106,7 +106,8 @@
 				51,
 				52,
 				53,
-				54
+				54,
+				55
 			]
 		}
 	],
@@ -197,7 +198,8 @@
 				51,
 				52,
 				53,
-				54
+				54,
+				55
 			]
 		}
 	],
@@ -531,6 +533,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "main/\u6570\u636e\u7ed3\u6784\u6559\u7a0b/\u9012\u5f52/\u590d\u6742\u9012\u5f52\u7b97\u6cd5\u8bbe\u8ba1/lc_N \u7687\u540e.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main/lcp_50.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
