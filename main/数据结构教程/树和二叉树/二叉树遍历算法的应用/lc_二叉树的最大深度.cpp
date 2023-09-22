@@ -1,7 +1,9 @@
 //
-// Created by LiYuanzhe on 2023/9/21.
+// Created by LiYuanzhe on 2023/9/22.
 //
+#include "algorithm"
 
+using namespace std;
 
 struct TreeNode {
     int val;
@@ -17,21 +19,10 @@ struct TreeNode {
 
 class Solution {
 public:
-
-    TreeNode *pre = nullptr;
-
-    void flatten(TreeNode *root) {
+    int maxDepth(TreeNode *root) {
         if (!root) {
-            return;
+            return 0;
         }
-        TreeNode *lef = root->left;
-        TreeNode *rig = root->right;
-        if (pre) {
-            pre->left = nullptr;
-            pre->right = root;
-        }
-        pre = root;
-        flatten(lef);
-        flatten(rig);
+        return 1 + max(maxDepth(root->left), maxDepth(root->right));
     }
 };
