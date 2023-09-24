@@ -133,7 +133,8 @@
 				78,
 				79,
 				80,
-				81
+				81,
+				82
 			]
 		}
 	],
@@ -251,7 +252,8 @@
 				78,
 				79,
 				80,
-				81
+				81,
+				82
 			]
 		}
 	],
@@ -747,6 +749,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "main/\u6570\u636e\u7ed3\u6784\u6559\u7a0b/\u6811\u548c\u4e8c\u53c9\u6811/\u4e8c\u53c9\u6811\u904d\u5386\u7b97\u6cd5\u7684\u5e94\u7528/lc_\u5728\u6bcf\u4e2a\u6811\u884c\u4e2d\u627e\u6700\u5927\u503c.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main/main_146.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
