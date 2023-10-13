@@ -1,26 +1,39 @@
 //
-// Created by LiYuanzhe on 2023/10/11.
+// Created by LiYuanzhe on 2023/10/13.
 //
 #include "vector"
-#include "string"
+#include "queue"
 
 using namespace std;
 
 class Solution {
 public:
-    long long findTheArrayConcVal(vector<int> &nums) {
-        long long res = 0;
-        int lef = 0;
-        int rig = nums.size() - 1;
-        while (lef <= rig) {
-            if (lef == rig) {
-                res += nums[lef];
-            } else {
-                res += stoi(to_string(nums[lef]) + to_string(nums[rig]));
+    bool isBipartite(vector<vector<int>> &graph) {
+        int n = graph.size();
+        vector<int> visited(n, 0);
+        for (int k = 0; k < n; k++) {
+            if (visited[k] == 0) {
+                queue<int> q;
+                q.emplace(0);
+                visited[0] = 1;
+                while (!q.empty()) {
+                    int s = q.size();
+                    for (int i = 0; i < s; i++) {
+                        int node = q.front();
+                        q.pop();
+                        for (const auto &item: graph[node]) {
+                            if (visited[item] == visited[node]) {
+                                return false;
+                            }
+                            if (visited[item] == 0) {
+                                q.emplace(item);
+                            }
+                            visited[item] = -visited[node];
+                        }
+                    }
+                }
             }
-            lef++;
-            rig--;
         }
-        return res;
+        return true;
     }
 };
