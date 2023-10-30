@@ -1,7 +1,9 @@
 //
 // Created by LiYuanzhe on 2023/10/21.
+// 并查集
 //
 #include "vector"
+#include "numeric"
 
 using namespace std;
 
