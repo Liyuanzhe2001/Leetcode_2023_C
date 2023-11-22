@@ -13,7 +13,7 @@ public:
         int s = 0;
         for (int num: nums) {
             if (n % 2 == 0) {
-                pre = num;
+                pre = num;  
                 n++;
             } else {
                 if (num != pre) {
