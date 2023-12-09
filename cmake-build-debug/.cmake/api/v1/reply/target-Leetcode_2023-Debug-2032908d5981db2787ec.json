@@ -243,7 +243,8 @@
 				188,
 				189,
 				190,
-				191
+				191,
+				192
 			]
 		}
 	],
@@ -471,7 +472,8 @@
 				188,
 				189,
 				190,
-				191
+				191,
+				192
 			]
 		}
 	],
@@ -1627,6 +1629,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "main/main_2008.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main/main_2048.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

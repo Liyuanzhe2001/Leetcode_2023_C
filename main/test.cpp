@@ -4,6 +4,7 @@
 
 #include "iostream"
 #include "string"
+#include "vector"
 
 using namespace std;
 
@@ -31,23 +32,30 @@ ListNode *cal(ListNode *node, int x) {
 }
 
 int main() {
-    ListNode *node1 = new ListNode(1);
-    ListNode *node2 = new ListNode(2);
-    ListNode *node3 = new ListNode(2);
-    ListNode *node4 = new ListNode(12);
-    ListNode *node5 = new ListNode(2);
-    ListNode *node6 = new ListNode(3);
-    node1->next = node2;
-    node2->next = node3;
-    node3->next = node4;
-    node4->next = node5;
-    node5->next = node6;
-    cal(node1, 2);
-    while (node1) {
-        cout << node1->val << " ";
-        node1 = node1->next;
+//    ListNode *node1 = new ListNode(1);
+//    ListNode *node2 = new ListNode(2);
+//    ListNode *node3 = new ListNode(2);
+//    ListNode *node4 = new ListNode(12);
+//    ListNode *node5 = new ListNode(2);
+//    ListNode *node6 = new ListNode(3);
+//    node1->next = node2;
+//    node2->next = node3;
+//    node3->next = node4;
+//    node4->next = node5;
+//    node5->next = node6;
+//    cal(node1, 2);
+//    while (node1) {
+//        cout << node1->val << " ";
+//        node1 = node1->next;
+//    }
+//    cout << endl;
+
+    vector<int> m{
+            1, 22, 333, 444
+    };
+    for (const auto &item: m){
+        cout << item << endl;
     }
-    cout << endl;
 
 }
 
